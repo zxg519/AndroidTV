@@ -1,0 +1,42 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Java / Kotlin class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+release/
+
+# Gradle
+.gradle/
+build/
+
+# Local SDK path / local config
+local.properties
+
+# Logs
+*.log
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystores
+*.jks
+*.keystore
+
+# WorkBuddy 本地项目记忆（含笔记，勿上传）
+.workbuddy/
+
+# OS
+.DS_Store
+Thumbs.db

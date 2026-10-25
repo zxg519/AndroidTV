@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">StreamHub 电视流</string>
+
+    <string name="add_source_title">添加 M3U 播放列表</string>
+    <string name="hint_name">名称（可选，如：我的家庭源）</string>
+    <string name="hint_url">M3U 链接（https://…/playlist.m3u）</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_cancel">取消</string>
+
+    <string name="index_title">加载公开 IPTV 索引</string>
+    <string name="btn_china">中国频道（推荐先试，数量适中）</string>
+    <string name="btn_all">全部频道（数量很大，加载较慢）</string>
+</resources>

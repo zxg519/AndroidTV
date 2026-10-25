@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 主界面/播放器：继承 Leanback TV 主题，遥控器焦点与 TV 样式由它提供 -->
+    <style name="Theme_StreamHub" parent="Theme.Leanback">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:colorBackground">@color/bg</item>
+    </style>
+
+    <!-- 输入类界面（添加来源/索引选择）：普通 AppCompat 主题即可 -->
+    <style name="Theme_StreamHub_Panel" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>
