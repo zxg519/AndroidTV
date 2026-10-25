@@ -44,11 +44,11 @@ jobs:
       - name: Configure local.properties
         run: echo "sdk.dir=$ANDROID_HOME" > local.properties
 
-      - name: Build release APK
-        run: gradle assembleRelease --no-daemon --stacktrace
+      - name: Build debug APK (auto-signed by build system, installable via adb)
+        run: gradle assembleDebug --no-daemon --stacktrace
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: app-release-apk
-          path: app/build/outputs/apk/release/*.apk
+          name: app-debug-apk
+          path: app/build/outputs/apk/debug/*.apk
