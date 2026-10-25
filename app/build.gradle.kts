@@ -49,7 +49,6 @@ dependencies {
 
     // Android TV 官方框架（遥控器焦点 / 分栏 / 卡片）
     implementation("androidx.leanback:leanback:1.0.0")
-    implementation("androidx.leanback:leanback-preference:1.1.0-beta01")
 
     // 播放内核：Media3 / ExoPlayer（支持 HLS、DASH、渐进式直播流）
     implementation("androidx.media3:media3-exoplayer:1.2.0")
