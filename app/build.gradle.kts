@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.streamhub"
-        minSdk = 21
+        minSdk = 19
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -57,8 +57,7 @@ dependencies {
     implementation("androidx.media3:media3-common:1.2.0")
     implementation("androidx.media3:media3-datasource:1.2.0")
 
-    // 网络拉取 M3U 文本
-    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    // 网络拉取 M3U 文本（使用系统 HttpURLConnection，兼容 API 19，故不再依赖 OkHttp）
 
     // 频道 logo 图片加载
     implementation("com.github.bumptech.glide:glide:4.16.0")
