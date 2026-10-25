@@ -13,6 +13,8 @@ android {
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
+        // minSdk 19 走 Dalvik，依赖方法数超过 65536，必须启用 multidex
+        multiDexEnabled = true
     }
 
     buildTypes {
@@ -43,6 +45,8 @@ dependencies {
     // 核心
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
+    // minSdk 19 的 multidex 支持库
+    implementation("androidx.multidex:multidex:2.0.1")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
     implementation("androidx.preference:preference-ktx:1.2.1")
