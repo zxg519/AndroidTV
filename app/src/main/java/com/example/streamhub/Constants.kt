@@ -27,7 +27,7 @@ object Constants {
     const val INDEX_ALL = "https://iptv-org.github.io/iptv/index.m3u"
 
     /** 内置合法公开测试流，开箱即可验证播放器 */
-    const val SAMPLE_M3U = """
+    val SAMPLE_M3U = """
         #EXTM3U
         #EXTINF:-1 tvg-logo="",测试流 · Big Buck Bunny
         https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8

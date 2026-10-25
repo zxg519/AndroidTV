@@ -2,6 +2,7 @@ package com.example.streamhub.ui
 
 import android.os.Bundle
 import androidx.fragment.app.FragmentActivity
+import com.example.streamhub.R
 import com.example.streamhub.databinding.ActivityPlaybackBinding
 
 /**

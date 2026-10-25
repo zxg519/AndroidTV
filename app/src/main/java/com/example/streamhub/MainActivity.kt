@@ -3,6 +3,7 @@ package com.example.streamhub
 import android.os.Bundle
 import androidx.fragment.app.FragmentActivity
 import com.example.streamhub.databinding.ActivityMainBinding
+import com.example.streamhub.ui.MainFragment
 
 /**
  * 启动 Activity：承载 Leanback 的 [com.example.streamhub.ui.MainFragment]。
